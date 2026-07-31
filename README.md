@@ -83,7 +83,7 @@ Created by `npm run seed`:
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/veridocs-ai.git
+git clone https://github.com/LOCHINI-UDAYAKUMAR/VERIDOCS-AI.git
 cd veridocs-ai
 
 # Install dependencies
