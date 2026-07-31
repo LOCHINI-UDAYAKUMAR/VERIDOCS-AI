@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+  background-color: #0b1220;
+  color: #e6ecff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+}
+
+.card {
+  background-color: #111a2e;
+  border: 1px solid #22304d;
+  border-radius: 14px;
+}
+
+.btn-primary {
+  background-color: #4f8cff;
+  color: white;
+  font-weight: 600;
+  border-radius: 10px;
+  padding: 0.6rem 1.1rem;
+  transition: opacity 0.15s ease;
+}
+.btn-primary:hover { opacity: 0.88; }
+.btn-primary:disabled { opacity: 0.5; cursor: not-allowed; }
+
+.btn-secondary {
+  background-color: transparent;
+  color: #e6ecff;
+  font-weight: 600;
+  border-radius: 10px;
+  padding: 0.6rem 1.1rem;
+  border: 1px solid #22304d;
+  transition: border-color 0.15s ease;
+}
+.btn-secondary:hover { border-color: #4f8cff; }
+
+.input {
+  background-color: #0b1220;
+  border: 1px solid #22304d;
+  border-radius: 10px;
+  padding: 0.6rem 0.8rem;
+  color: #e6ecff;
+  width: 100%;
+}
+.input:focus {
+  outline: none;
+  border-color: #4f8cff;
+}
+
+.label {
+  font-size: 0.8rem;
+  color: #7c8aa8;
+  margin-bottom: 0.3rem;
+  display: block;
+}
+
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-track { background: #0b1220; }
+::-webkit-scrollbar-thumb { background: #22304d; border-radius: 6px; }
